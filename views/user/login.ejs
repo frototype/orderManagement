@@ -1,6 +1,10 @@
 
 <%- include("../partials/user/header.ejs")%>
 <link rel="stylesheet" href="/css/login.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+<style>
+	 
+</style>
     <div id="container" class="container">
 		<!-- FORM SECTION -->
 		<div class="row">
@@ -52,9 +56,14 @@
 							<i class='bx bxs-lock-alt'></i>
 							<input type="password" placeholder="Password">
 						</div>
+						
 						<button>
 							Sign in
 						</button>
+						<div class="input-group" id="google-input-field">
+							<i class="fa-brands fa-google " style="color: #fff;"></i>
+							<input id="google-login" class="google-login-input" type="password" placeholder="login with google" >
+						</div>
 						<p>
 							<b>
 								Forgot password?

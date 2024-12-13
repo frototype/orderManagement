@@ -1,7 +1,7 @@
 
 const loginLoading=(req,res)=>{
     try {
-        console.log("inside login loading")
+        
         res.render("login")
         
     } catch (error) {

@@ -273,6 +273,35 @@ body {
     transform: translate(100%, 0);
     right: 50%;
 }
+/* newly added */
+#google-input-field{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#google-login{
+    background-color: #4267B2;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+.google-login-input {
+    border: none;
+    outline: none;
+    background-color: transparent; 
+    color: white; 
+    flex: 1;
+    text-align: center;
+}
+
+  /* Change placeholder color to white */
+.google-login-input::placeholder {
+    color: white;
+    opacity: 1; 
+}
 
 /* RESPONSIVE */
 
